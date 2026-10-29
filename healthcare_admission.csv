@@ -1,0 +1,1001 @@
+patient_id,age,gender,admission_type,department,length_of_stay,billing_amount,outcome,admission_date
+P0001,9,Female,Urgent,Neurology,3,62681,Discharged,2025-06-12
+P0002,70,Female,Urgent,Pediatrics,1,83264,Discharged,2025-01-07
+P0003,59,Female,Urgent,Cardiology,10,64739,Discharged,2025-09-03
+P0004,40,Female,Urgent,Orthopedics,11,60222,Discharged,2025-06-16
+P0005,39,Female,Urgent,Pediatrics,12,47801,Discharged,2025-10-09
+P0006,78,Female,Elective,Pediatrics,15,25996,Discharged,2025-08-14
+P0007,8,Male,Elective,Neurology,8,29515,Discharged,2025-10-15
+P0008,63,Female,Elective,General Medicine,13,75076,Transferred,2025-06-18
+P0009,19,Female,Elective,Cardiology,11,8841,Discharged,2025-01-03
+P0010,9,Male,Urgent,Cardiology,5,10279,Discharged,2025-02-17
+P0011,48,Male,Elective,Neurology,13,40873,Under Observation,2025-06-17
+P0012,88,Female,Elective,Pediatrics,1,77893,Discharged,2025-05-26
+P0013,67,Male,Emergency,General Medicine,9,66390,Under Observation,2025-10-17
+P0014,69,Male,Urgent,Orthopedics,15,59819,Under Observation,2025-05-31
+P0015,65,Male,Elective,Neurology,10,54345,Under Observation,2025-11-10
+P0016,71,Male,Elective,Cardiology,15,12853,Discharged,2025-03-10
+P0017,47,Male,Elective,Neurology,1,34516,Discharged,2025-05-21
+P0018,12,Female,Emergency,Cardiology,8,9791,Discharged,2025-10-04
+P0019,76,Male,Elective,Cardiology,12,76300,Discharged,2025-02-15
+P0020,41,Female,Urgent,General Medicine,10,75582,Discharged,2025-04-28
+P0021,46,Female,Elective,Cardiology,14,27293,Discharged,2025-10-02
+P0022,34,Male,Emergency,Cardiology,7,30708,Transferred,2025-08-03
+P0023,17,Male,Elective,Orthopedics,11,33110,Discharged,2025-10-11
+P0024,84,Female,Emergency,Neurology,7,89152,Discharged,2025-07-08
+P0025,71,Male,Elective,Orthopedics,14,49876,Discharged,2025-11-10
+P0026,58,Male,Elective,Cardiology,2,76683,Discharged,2025-11-17
+P0027,37,Female,Emergency,Neurology,4,45985,Discharged,2025-12-22
+P0028,75,Other,Urgent,Orthopedics,2,70423,Discharged,2025-02-14
+P0029,50,Female,Emergency,General Medicine,11,53776,Transferred,2025-08-04
+P0030,40,Male,Urgent,Orthopedics,4,29303,Discharged,2025-02-11
+P0031,41,Female,Urgent,Orthopedics,5,87878,Discharged,2025-03-25
+P0032,21,Female,Emergency,Orthopedics,13,71477,Discharged,2025-04-20
+P0033,9,Male,Elective,Neurology,6,77395,Discharged,2025-08-24
+P0034,50,Female,Emergency,Neurology,3,94919,Discharged,2025-06-07
+P0035,80,Male,Emergency,Orthopedics,1,26379,Discharged,2025-11-12
+P0036,6,Male,Urgent,Cardiology,4,10972,Discharged,2025-04-19
+P0037,78,Female,Urgent,General Medicine,14,59063,Discharged,2025-08-14
+P0038,75,Male,Emergency,General Medicine,9,33964,Discharged,2025-10-06
+P0039,25,Male,Emergency,Neurology,15,44706,Discharged,2025-12-24
+P0040,57,Female,Emergency,Neurology,4,24998,Discharged,2025-03-31
+P0041,15,Other,Elective,Neurology,6,41050,Under Observation,2025-09-25
+P0042,69,Female,Emergency,General Medicine,3,40538,Discharged,2025-01-31
+P0043,64,Female,Emergency,General Medicine,6,36354,Under Observation,2025-07-18
+P0044,32,Other,Elective,Cardiology,9,74749,Discharged,2025-06-01
+P0045,7,Male,Emergency,Orthopedics,13,60080,Discharged,2025-12-16
+P0046,88,Male,Urgent,Cardiology,6,48476,Discharged,2025-10-10
+P0047,41,Male,Urgent,Orthopedics,12,13046,Discharged,2025-12-05
+P0048,81,Male,Urgent,Neurology,10,57932,Under Observation,2025-11-07
+P0049,62,Female,Emergency,Neurology,5,19152,Discharged,2025-05-30
+P0050,71,Male,Urgent,Orthopedics,14,32787,Transferred,2025-09-25
+P0051,69,Male,Urgent,Neurology,7,42661,Transferred,2025-01-12
+P0052,18,Male,Emergency,Neurology,3,15846,Discharged,2025-07-23
+P0053,33,Male,Urgent,General Medicine,15,40170,Discharged,2025-01-18
+P0054,43,Female,Elective,Pediatrics,14,28159,Discharged,2025-09-22
+P0055,45,Male,Urgent,Cardiology,1,85277,Discharged,2025-12-19
+P0056,4,Male,Elective,Neurology,14,86249,Discharged,2025-09-06
+P0057,50,Male,Urgent,Pediatrics,15,2447,Discharged,2025-11-03
+P0058,14,Female,Emergency,Orthopedics,13,61037,Under Observation,2025-03-27
+P0059,67,Female,Elective,Neurology,4,64774,Discharged,2025-12-29
+P0060,62,Female,Emergency,Orthopedics,10,39043,Discharged,2025-07-21
+P0061,84,Male,Emergency,Cardiology,9,47974,Discharged,2025-09-04
+P0062,68,Male,Emergency,Cardiology,10,79411,Discharged,2025-10-09
+P0063,33,Female,Elective,General Medicine,10,39040,Under Observation,2025-08-22
+P0064,88,Female,Emergency,Orthopedics,10,8316,Discharged,2025-04-26
+P0065,37,Female,Urgent,General Medicine,8,38506,Under Observation,2025-08-12
+P0066,30,Female,Elective,Neurology,11,26881,Transferred,2025-08-27
+P0067,82,Female,Urgent,Pediatrics,8,39507,Transferred,2025-11-09
+P0068,34,Male,Urgent,Orthopedics,1,24550,Discharged,2025-06-25
+P0069,7,Male,Emergency,General Medicine,1,16687,Transferred,2025-07-03
+P0070,43,Female,Emergency,Cardiology,15,98566,Discharged,2025-07-03
+P0071,72,Male,Elective,Cardiology,14,14629,Discharged,2025-02-11
+P0072,18,Female,Elective,General Medicine,9,71198,Discharged,2025-02-02
+P0073,42,Female,Emergency,Pediatrics,3,72323,Discharged,2025-01-08
+P0074,12,Female,Urgent,Pediatrics,12,62543,Discharged,2025-09-01
+P0075,62,Female,Elective,Neurology,3,91323,Discharged,2025-06-02
+P0076,43,Female,Urgent,Cardiology,6,2488,Discharged,2025-11-12
+P0077,30,Female,Emergency,Pediatrics,5,31559,Transferred,2025-09-14
+P0078,21,Female,Urgent,General Medicine,1,20062,Discharged,2025-02-21
+P0079,51,Female,Emergency,Neurology,13,58539,Discharged,2025-02-06
+P0080,61,Male,Elective,General Medicine,8,64283,Discharged,2025-05-14
+P0081,85,Female,Elective,Pediatrics,5,89995,Discharged,2025-12-03
+P0082,40,Female,Urgent,Neurology,8,39212,Discharged,2025-01-18
+P0083,15,Male,Emergency,General Medicine,1,25118,Discharged,2025-03-10
+P0084,75,Male,Emergency,General Medicine,7,92580,Discharged,2025-01-11
+P0085,57,Female,Elective,Orthopedics,8,67953,Under Observation,2025-05-31
+P0086,64,Female,Elective,General Medicine,6,76943,Transferred,2025-12-28
+P0087,9,Male,Emergency,Neurology,13,45608,Discharged,2025-09-07
+P0088,29,Male,Emergency,Pediatrics,4,45844,Discharged,2025-06-30
+P0089,70,Male,Emergency,Pediatrics,3,40126,Discharged,2025-02-22
+P0090,75,Male,Elective,Pediatrics,8,75453,Discharged,2025-05-10
+P0091,40,Female,Elective,General Medicine,14,22640,Transferred,2025-07-11
+P0092,73,Male,Elective,Cardiology,6,97590,Discharged,2025-04-11
+P0093,76,Male,Urgent,Neurology,1,19240,Transferred,2025-09-15
+P0094,35,Female,Emergency,Orthopedics,15,47176,Discharged,2025-12-24
+P0095,81,Male,Urgent,Pediatrics,7,32832,Discharged,2025-03-17
+P0096,26,Male,Urgent,Orthopedics,3,64968,Under Observation,2025-04-03
+P0097,22,Female,Emergency,Orthopedics,10,68708,Transferred,2025-02-16
+P0098,62,Female,Emergency,Cardiology,5,92030,Under Observation,2025-09-22
+P0099,58,Other,Emergency,General Medicine,15,79344,Under Observation,2025-06-18
+P0100,13,Female,Emergency,Neurology,5,26370,Discharged,2025-04-14
+P0101,75,Male,Elective,Cardiology,9,22252,Discharged,2025-03-22
+P0102,18,Female,Emergency,Pediatrics,9,88883,Discharged,2025-01-26
+P0103,73,Female,Emergency,Cardiology,4,49811,Discharged,2025-06-23
+P0104,1,Female,Elective,Cardiology,8,11559,Discharged,2025-09-07
+P0105,72,Female,Urgent,Cardiology,2,82847,Under Observation,2025-03-27
+P0106,71,Female,Emergency,Orthopedics,10,65548,Discharged,2025-01-01
+P0107,71,Female,Urgent,Cardiology,12,4505,Discharged,2025-06-22
+P0108,60,Male,Elective,Pediatrics,15,78718,Discharged,2025-09-04
+P0109,43,Female,Urgent,Orthopedics,5,61523,Discharged,2025-05-06
+P0110,64,Male,Emergency,Neurology,5,62232,Discharged,2025-04-02
+P0111,25,Female,Elective,Cardiology,9,86764,Discharged,2025-02-26
+P0112,71,Female,Urgent,Orthopedics,11,50562,Discharged,2025-09-30
+P0113,51,Female,Emergency,Cardiology,15,47204,Discharged,2025-11-11
+P0114,42,Other,Urgent,Pediatrics,1,62500,Under Observation,2025-10-08
+P0115,46,Male,Elective,Neurology,4,21382,Discharged,2025-07-09
+P0116,52,Female,Elective,Orthopedics,4,16863,Discharged,2025-09-22
+P0117,4,Female,Elective,Cardiology,4,84691,Discharged,2025-05-25
+P0118,13,Male,Elective,Cardiology,7,23126,Discharged,2025-01-09
+P0119,23,Male,Emergency,Neurology,14,51426,Discharged,2025-05-15
+P0120,11,Male,Urgent,Cardiology,1,28450,Under Observation,2025-09-14
+P0121,40,Female,Elective,General Medicine,13,24585,Discharged,2025-08-25
+P0122,61,Female,Urgent,Pediatrics,10,60582,Discharged,2025-12-28
+P0123,59,Other,Elective,Pediatrics,10,80632,Discharged,2025-12-31
+P0124,43,Male,Elective,Neurology,11,45306,Transferred,2025-03-30
+P0125,77,Other,Elective,General Medicine,2,15595,Discharged,2025-01-04
+P0126,51,Male,Urgent,Orthopedics,12,25958,Discharged,2025-04-11
+P0127,8,Female,Urgent,Cardiology,4,18128,Under Observation,2025-11-16
+P0128,69,Male,Urgent,Cardiology,8,88516,Discharged,2025-10-24
+P0129,52,Female,Elective,Orthopedics,11,33314,Discharged,2025-02-06
+P0130,58,Female,Urgent,Orthopedics,10,38644,Discharged,2025-02-28
+P0131,51,Female,Elective,Cardiology,5,8961,Discharged,2025-07-25
+P0132,50,Female,Elective,Pediatrics,6,45711,Under Observation,2025-08-30
+P0133,9,Male,Urgent,General Medicine,8,91565,Discharged,2025-12-25
+P0134,51,Male,Emergency,Orthopedics,1,42151,Discharged,2025-10-03
+P0135,72,Male,Urgent,Pediatrics,11,65822,Discharged,2025-03-19
+P0136,28,Male,Emergency,Pediatrics,2,19830,Discharged,2025-01-14
+P0137,55,Female,Elective,Pediatrics,7,16008,Transferred,2025-08-20
+P0138,3,Female,Elective,Neurology,10,73700,Discharged,2025-07-22
+P0139,32,Female,Elective,Pediatrics,2,8442,Transferred,2025-12-03
+P0140,40,Female,Elective,Orthopedics,15,45949,Discharged,2025-07-30
+P0141,89,Female,Elective,General Medicine,6,33037,Discharged,2025-07-02
+P0142,20,Female,Elective,Pediatrics,1,3593,Discharged,2025-04-21
+P0143,25,Male,Elective,Cardiology,10,54058,Transferred,2025-02-01
+P0144,37,Male,Elective,Orthopedics,9,96474,Discharged,2025-11-16
+P0145,90,Female,Urgent,Cardiology,10,8776,Discharged,2025-10-29
+P0146,77,Female,Elective,Neurology,12,81945,Discharged,2025-03-01
+P0147,4,Male,Elective,Orthopedics,8,54840,Discharged,2025-09-14
+P0148,22,Female,Urgent,Pediatrics,13,72909,Discharged,2025-05-13
+P0149,74,Female,Urgent,Pediatrics,6,11461,Discharged,2025-06-09
+P0150,6,Male,Emergency,Neurology,9,87171,Transferred,2025-11-06
+P0151,78,Male,Urgent,Neurology,3,3118,Discharged,2025-11-04
+P0152,26,Female,Emergency,Orthopedics,10,90868,Discharged,2025-03-11
+P0153,83,Female,Emergency,Pediatrics,4,66465,Discharged,2025-04-23
+P0154,27,Male,Urgent,Pediatrics,11,35074,Discharged,2025-10-27
+P0155,40,Female,Emergency,Neurology,13,2695,Discharged,2025-12-01
+P0156,60,Male,Urgent,Cardiology,13,61874,Discharged,2025-01-29
+P0157,12,Female,Urgent,General Medicine,14,10568,Discharged,2025-11-01
+P0158,51,Male,Urgent,Neurology,2,61663,Discharged,2025-06-28
+P0159,46,Female,Urgent,Cardiology,3,77769,Transferred,2025-08-04
+P0160,71,Male,Urgent,Cardiology,14,28195,Discharged,2025-01-28
+P0161,90,Male,Emergency,Orthopedics,6,25395,Discharged,2025-09-06
+P0162,60,Female,Urgent,Neurology,1,23751,Under Observation,2025-09-05
+P0163,37,Male,Emergency,Orthopedics,5,24034,Under Observation,2025-08-30
+P0164,37,Male,Emergency,Neurology,13,13163,Discharged,2025-10-16
+P0165,38,Male,Emergency,General Medicine,6,26471,Discharged,2025-12-12
+P0166,74,Female,Elective,General Medicine,2,66613,Discharged,2025-11-07
+P0167,29,Female,Urgent,Orthopedics,11,31646,Discharged,2025-09-29
+P0168,16,Other,Emergency,Cardiology,3,78530,Discharged,2025-12-25
+P0169,31,Male,Urgent,Orthopedics,6,82291,Discharged,2025-09-04
+P0170,3,Male,Elective,General Medicine,1,76574,Discharged,2025-09-03
+P0171,10,Male,Elective,Neurology,10,54874,Discharged,2025-07-17
+P0172,9,Female,Urgent,Neurology,7,32995,Discharged,2025-10-08
+P0173,70,Other,Elective,Orthopedics,14,93130,Discharged,2025-01-27
+P0174,66,Female,Elective,Neurology,6,22115,Discharged,2025-07-04
+P0175,63,Female,Urgent,Orthopedics,4,47522,Discharged,2025-06-05
+P0176,42,Male,Elective,Neurology,3,46454,Transferred,2025-11-30
+P0177,65,Female,Elective,Neurology,4,75068,Discharged,2025-01-27
+P0178,15,Female,Emergency,General Medicine,7,55588,Discharged,2025-08-23
+P0179,82,Male,Emergency,Orthopedics,2,80353,Discharged,2025-03-09
+P0180,46,Male,Emergency,Orthopedics,7,92071,Discharged,2025-11-19
+P0181,85,Male,Emergency,General Medicine,13,40281,Discharged,2025-11-07
+P0182,14,Male,Emergency,Neurology,12,87733,Discharged,2025-03-27
+P0183,45,Male,Urgent,Cardiology,10,18629,Discharged,2025-11-15
+P0184,63,Male,Emergency,Pediatrics,14,91774,Discharged,2025-07-01
+P0185,45,Female,Elective,Cardiology,12,19443,Discharged,2025-12-21
+P0186,41,Male,Urgent,Orthopedics,10,85326,Discharged,2025-09-24
+P0187,15,Male,Urgent,Neurology,13,40244,Discharged,2025-01-13
+P0188,35,Female,Elective,Neurology,2,96529,Under Observation,2025-03-15
+P0189,22,Female,Emergency,Cardiology,13,14661,Discharged,2025-05-28
+P0190,28,Female,Urgent,Pediatrics,5,47619,Discharged,2025-03-19
+P0191,62,Male,Emergency,Orthopedics,11,90385,Discharged,2025-02-18
+P0192,57,Female,Urgent,Neurology,14,6652,Discharged,2025-12-23
+P0193,55,Male,Urgent,General Medicine,8,27971,Discharged,2025-11-14
+P0194,33,Male,Emergency,Cardiology,2,10189,Discharged,2025-06-08
+P0195,87,Female,Urgent,Orthopedics,6,33485,Discharged,2025-03-20
+P0196,8,Female,Emergency,Orthopedics,7,40247,Discharged,2025-03-08
+P0197,31,Female,Emergency,Orthopedics,15,62651,Discharged,2025-12-01
+P0198,11,Female,Urgent,Cardiology,15,27253,Discharged,2025-05-01
+P0199,31,Female,Urgent,Pediatrics,9,17551,Discharged,2025-01-05
+P0200,87,Male,Emergency,Neurology,15,18654,Discharged,2025-05-26
+P0201,33,Male,Urgent,General Medicine,7,93964,Under Observation,2025-06-15
+P0202,82,Male,Urgent,General Medicine,7,95414,Discharged,2025-08-16
+P0203,45,Male,Urgent,Neurology,13,23697,Discharged,2025-05-04
+P0204,63,Female,Emergency,Cardiology,11,21151,Discharged,2025-12-03
+P0205,42,Male,Emergency,Neurology,8,7311,Discharged,2025-08-23
+P0206,24,Female,Urgent,Pediatrics,7,96020,Discharged,2025-12-27
+P0207,69,Female,Urgent,Pediatrics,11,71203,Discharged,2025-05-14
+P0208,88,Female,Urgent,Pediatrics,12,76562,Discharged,2025-08-26
+P0209,24,Male,Elective,Neurology,8,30476,Discharged,2025-05-14
+P0210,71,Male,Emergency,General Medicine,1,64813,Discharged,2025-09-13
+P0211,24,Other,Urgent,Cardiology,2,7861,Transferred,2025-09-30
+P0212,65,Female,Emergency,General Medicine,3,68250,Discharged,2025-04-28
+P0213,72,Female,Elective,Orthopedics,7,58806,Under Observation,2025-12-09
+P0214,41,Female,Urgent,General Medicine,10,34484,Discharged,2025-11-09
+P0215,67,Female,Elective,General Medicine,13,71626,Transferred,2025-11-23
+P0216,25,Male,Emergency,Pediatrics,4,65350,Transferred,2025-03-21
+P0217,8,Female,Emergency,Orthopedics,12,45022,Discharged,2025-09-20
+P0218,9,Male,Elective,Neurology,10,20296,Transferred,2025-02-08
+P0219,41,Female,Urgent,Orthopedics,1,4309,Under Observation,2025-02-08
+P0220,82,Female,Elective,Cardiology,6,93896,Discharged,2025-12-22
+P0221,12,Female,Urgent,Cardiology,5,29573,Discharged,2025-02-25
+P0222,42,Male,Emergency,Orthopedics,14,31576,Discharged,2025-11-12
+P0223,64,Male,Urgent,Pediatrics,14,68745,Transferred,2025-06-07
+P0224,19,Female,Urgent,Orthopedics,13,27008,Discharged,2025-04-21
+P0225,65,Male,Elective,General Medicine,8,38824,Transferred,2025-01-27
+P0226,28,Male,Urgent,Cardiology,8,71694,Discharged,2025-09-04
+P0227,73,Male,Elective,Orthopedics,5,60347,Under Observation,2025-09-21
+P0228,53,Male,Elective,General Medicine,12,66332,Discharged,2025-06-20
+P0229,50,Male,Urgent,Neurology,2,2457,Discharged,2025-10-23
+P0230,16,Female,Urgent,Cardiology,5,46227,Discharged,2025-04-28
+P0231,42,Male,Urgent,Cardiology,3,48576,Under Observation,2025-07-21
+P0232,78,Male,Emergency,Pediatrics,8,63980,Under Observation,2025-04-15
+P0233,2,Male,Urgent,General Medicine,5,16843,Discharged,2025-08-01
+P0234,69,Male,Emergency,Neurology,3,17630,Discharged,2025-02-19
+P0235,45,Male,Elective,Neurology,6,76719,Discharged,2025-06-23
+P0236,65,Female,Elective,Cardiology,13,67986,Under Observation,2025-07-20
+P0237,60,Male,Elective,Pediatrics,9,81496,Discharged,2025-07-23
+P0238,39,Male,Urgent,Cardiology,13,28520,Discharged,2025-06-13
+P0239,28,Male,Urgent,General Medicine,14,99766,Discharged,2025-08-23
+P0240,57,Male,Emergency,Neurology,14,28738,Discharged,2025-07-06
+P0241,13,Male,Emergency,Neurology,6,65794,Discharged,2025-04-14
+P0242,53,Male,Emergency,Neurology,14,17893,Discharged,2025-03-20
+P0243,9,Female,Urgent,Pediatrics,14,92014,Transferred,2025-08-25
+P0244,59,Male,Elective,Cardiology,15,34573,Discharged,2025-12-09
+P0245,57,Female,Urgent,Neurology,6,80643,Discharged,2025-10-02
+P0246,8,Female,Urgent,Neurology,4,34462,Discharged,2025-08-22
+P0247,69,Male,Urgent,Neurology,9,79503,Discharged,2025-12-03
+P0248,38,Male,Emergency,Cardiology,14,46509,Transferred,2025-11-25
+P0249,71,Female,Emergency,Pediatrics,14,8124,Discharged,2025-07-04
+P0250,4,Female,Elective,Neurology,9,20661,Discharged,2025-02-09
+P0251,17,Male,Elective,Orthopedics,3,68977,Discharged,2025-08-20
+P0252,45,Male,Urgent,Neurology,7,20914,Discharged,2025-08-16
+P0253,17,Male,Emergency,Pediatrics,11,28981,Discharged,2025-04-12
+P0254,30,Male,Elective,Neurology,9,55090,Discharged,2025-11-07
+P0255,60,Female,Emergency,Neurology,6,26799,Discharged,2025-11-14
+P0256,14,Male,Emergency,Neurology,6,14630,Discharged,2025-05-01
+P0257,61,Male,Emergency,Neurology,1,63181,Discharged,2025-06-24
+P0258,10,Female,Emergency,Cardiology,5,69512,Discharged,2025-03-13
+P0259,16,Male,Elective,General Medicine,11,73839,Under Observation,2025-03-07
+P0260,53,Male,Elective,Cardiology,4,94507,Discharged,2025-04-07
+P0261,72,Female,Elective,Neurology,15,14200,Under Observation,2025-05-14
+P0262,16,Male,Elective,Neurology,2,43826,Discharged,2025-04-10
+P0263,27,Male,Urgent,Neurology,9,24931,Discharged,2025-02-25
+P0264,84,Male,Urgent,General Medicine,8,90309,Discharged,2025-06-13
+P0265,90,Female,Elective,Orthopedics,13,54900,Discharged,2025-08-16
+P0266,53,Male,Elective,Pediatrics,14,11635,Discharged,2025-04-29
+P0267,41,Male,Urgent,Neurology,9,69831,Discharged,2025-07-14
+P0268,32,Male,Urgent,Pediatrics,10,6209,Discharged,2025-04-10
+P0269,56,Male,Emergency,Cardiology,11,28869,Discharged,2025-09-14
+P0270,54,Female,Urgent,Orthopedics,8,72694,Discharged,2025-08-25
+P0271,27,Male,Emergency,General Medicine,3,51589,Under Observation,2025-12-17
+P0272,3,Female,Elective,Orthopedics,7,76580,Under Observation,2025-01-20
+P0273,14,Female,Elective,Pediatrics,4,57977,Discharged,2025-11-08
+P0274,87,Female,Elective,Neurology,7,84620,Transferred,2025-05-05
+P0275,38,Male,Emergency,Cardiology,10,57132,Discharged,2025-01-25
+P0276,44,Female,Urgent,General Medicine,4,7568,Discharged,2025-09-09
+P0277,43,Female,Emergency,Cardiology,4,8983,Discharged,2025-03-04
+P0278,71,Male,Emergency,General Medicine,13,78137,Discharged,2025-03-06
+P0279,6,Female,Urgent,General Medicine,6,5782,Discharged,2025-12-24
+P0280,8,Female,Urgent,Pediatrics,3,38901,Under Observation,2025-03-22
+P0281,25,Male,Emergency,Orthopedics,11,3578,Discharged,2025-07-19
+P0282,44,Female,Urgent,Pediatrics,11,31727,Transferred,2025-03-15
+P0283,61,Male,Urgent,Cardiology,13,60324,Under Observation,2025-02-15
+P0284,45,Female,Emergency,Orthopedics,12,18956,Discharged,2025-01-01
+P0285,40,Other,Elective,Cardiology,15,47678,Discharged,2025-01-06
+P0286,85,Male,Elective,General Medicine,9,99610,Under Observation,2025-06-22
+P0287,15,Female,Emergency,General Medicine,5,8908,Under Observation,2025-06-08
+P0288,52,Male,Emergency,Pediatrics,13,8239,Discharged,2025-01-15
+P0289,49,Female,Emergency,General Medicine,4,28582,Discharged,2025-05-08
+P0290,43,Female,Emergency,Neurology,5,83047,Discharged,2025-04-10
+P0291,73,Male,Elective,Cardiology,13,41768,Discharged,2025-07-28
+P0292,25,Male,Elective,Pediatrics,14,64671,Discharged,2025-12-30
+P0293,86,Male,Emergency,Orthopedics,6,5319,Discharged,2025-09-10
+P0294,30,Male,Emergency,Cardiology,11,74038,Discharged,2025-12-02
+P0295,50,Male,Emergency,Pediatrics,14,8607,Discharged,2025-03-12
+P0296,47,Male,Urgent,Pediatrics,12,71748,Discharged,2025-03-20
+P0297,77,Male,Emergency,Orthopedics,1,16496,Discharged,2025-10-02
+P0298,40,Male,Urgent,General Medicine,10,86127,Discharged,2025-04-24
+P0299,26,Female,Elective,Cardiology,3,31021,Discharged,2025-11-06
+P0300,2,Female,Urgent,Cardiology,13,20011,Discharged,2025-06-19
+P0301,33,Female,Elective,Neurology,2,34997,Discharged,2025-03-15
+P0302,75,Male,Emergency,General Medicine,15,2080,Discharged,2025-11-05
+P0303,1,Female,Elective,Cardiology,3,18182,Discharged,2025-07-20
+P0304,81,Female,Emergency,Cardiology,7,60656,Discharged,2025-10-20
+P0305,49,Male,Emergency,General Medicine,4,31476,Discharged,2025-06-15
+P0306,13,Male,Emergency,General Medicine,13,36678,Discharged,2025-02-16
+P0307,28,Female,Emergency,General Medicine,6,81109,Discharged,2025-09-06
+P0308,50,Male,Emergency,General Medicine,12,14131,Discharged,2025-02-15
+P0309,29,Female,Emergency,Pediatrics,2,40797,Under Observation,2025-08-31
+P0310,10,Other,Urgent,General Medicine,7,20241,Discharged,2025-06-02
+P0311,60,Male,Elective,Orthopedics,14,49319,Discharged,2025-10-16
+P0312,61,Male,Elective,Pediatrics,14,34511,Discharged,2025-11-14
+P0313,11,Other,Urgent,Neurology,4,6530,Discharged,2025-05-29
+P0314,26,Female,Emergency,Cardiology,6,8882,Discharged,2025-11-18
+P0315,22,Male,Elective,General Medicine,7,85529,Discharged,2025-02-10
+P0316,60,Female,Urgent,Neurology,9,7577,Discharged,2025-02-09
+P0317,66,Female,Elective,Pediatrics,9,78706,Discharged,2025-12-29
+P0318,66,Female,Elective,Orthopedics,2,91771,Discharged,2025-07-29
+P0319,85,Female,Emergency,Pediatrics,12,47649,Discharged,2025-06-14
+P0320,70,Male,Emergency,Cardiology,4,32586,Transferred,2025-02-26
+P0321,29,Male,Emergency,General Medicine,5,78079,Discharged,2025-04-16
+P0322,10,Female,Emergency,Orthopedics,13,98259,Discharged,2025-09-08
+P0323,56,Male,Urgent,Orthopedics,11,13801,Discharged,2025-10-27
+P0324,83,Female,Elective,Neurology,6,96508,Discharged,2025-12-01
+P0325,88,Female,Elective,Pediatrics,14,94487,Discharged,2025-05-29
+P0326,21,Male,Urgent,Neurology,6,15972,Discharged,2025-06-15
+P0327,22,Female,Emergency,Pediatrics,9,7364,Discharged,2025-03-01
+P0328,4,Male,Emergency,Orthopedics,4,72063,Discharged,2025-01-31
+P0329,13,Female,Elective,Cardiology,3,9611,Under Observation,2025-06-09
+P0330,50,Male,Urgent,Pediatrics,8,60879,Discharged,2025-07-31
+P0331,50,Female,Elective,Cardiology,9,8346,Discharged,2025-02-08
+P0332,34,Female,Urgent,Neurology,13,69684,Discharged,2025-05-30
+P0333,28,Male,Emergency,Pediatrics,6,24707,Discharged,2025-08-23
+P0334,75,Female,Urgent,Pediatrics,14,11426,Discharged,2025-10-23
+P0335,42,Female,Emergency,Pediatrics,10,8528,Discharged,2025-12-09
+P0336,73,Female,Emergency,Orthopedics,2,20479,Discharged,2025-05-05
+P0337,87,Female,Elective,General Medicine,12,54994,Discharged,2025-05-23
+P0338,29,Other,Emergency,Neurology,9,9510,Discharged,2025-11-16
+P0339,19,Male,Urgent,General Medicine,6,80623,Discharged,2025-09-11
+P0340,86,Female,Urgent,Orthopedics,8,61205,Discharged,2025-04-10
+P0341,58,Male,Elective,Cardiology,5,31135,Discharged,2025-09-08
+P0342,27,Female,Emergency,Orthopedics,10,98686,Discharged,2025-02-27
+P0343,56,Female,Emergency,Orthopedics,9,66537,Discharged,2025-06-13
+P0344,47,Male,Elective,Neurology,7,67855,Discharged,2025-04-22
+P0345,82,Male,Elective,Neurology,5,19046,Under Observation,2025-12-29
+P0346,24,Female,Urgent,Orthopedics,6,71655,Discharged,2025-01-13
+P0347,90,Male,Elective,Cardiology,8,56801,Discharged,2025-11-09
+P0348,85,Female,Emergency,Cardiology,8,98490,Discharged,2025-04-13
+P0349,17,Male,Emergency,General Medicine,5,48844,Discharged,2025-01-14
+P0350,15,Female,Urgent,Neurology,9,68445,Discharged,2025-08-29
+P0351,48,Male,Emergency,General Medicine,4,35430,Discharged,2025-09-05
+P0352,5,Male,Urgent,Orthopedics,8,5937,Discharged,2025-02-21
+P0353,27,Female,Emergency,Orthopedics,2,14535,Discharged,2025-01-14
+P0354,40,Female,Urgent,Orthopedics,8,86967,Discharged,2025-02-10
+P0355,88,Male,Urgent,Orthopedics,12,74336,Discharged,2025-05-30
+P0356,90,Male,Elective,Pediatrics,13,37738,Discharged,2025-02-18
+P0357,14,Female,Emergency,Pediatrics,11,70387,Transferred,2025-09-14
+P0358,81,Female,Urgent,Neurology,12,2427,Discharged,2025-01-29
+P0359,9,Male,Emergency,General Medicine,1,5643,Discharged,2025-10-15
+P0360,68,Female,Elective,Pediatrics,6,51709,Discharged,2025-11-16
+P0361,77,Female,Urgent,Cardiology,10,63247,Discharged,2025-09-19
+P0362,81,Female,Urgent,General Medicine,13,93828,Discharged,2025-12-11
+P0363,21,Female,Emergency,Orthopedics,9,76447,Discharged,2025-12-09
+P0364,81,Female,Urgent,Pediatrics,13,27218,Discharged,2025-01-17
+P0365,11,Male,Emergency,Orthopedics,5,81884,Under Observation,2025-05-05
+P0366,47,Female,Urgent,Pediatrics,3,50168,Discharged,2025-10-05
+P0367,43,Female,Elective,Cardiology,2,82951,Discharged,2025-05-04
+P0368,29,Female,Emergency,Cardiology,9,19030,Discharged,2025-09-27
+P0369,2,Male,Elective,Pediatrics,10,4570,Discharged,2025-10-10
+P0370,70,Male,Emergency,Orthopedics,5,7653,Discharged,2025-12-30
+P0371,31,Female,Urgent,Orthopedics,12,99107,Discharged,2025-05-01
+P0372,60,Male,Emergency,Cardiology,12,9893,Discharged,2025-05-07
+P0373,37,Other,Emergency,Neurology,6,94057,Discharged,2025-01-09
+P0374,34,Male,Elective,Pediatrics,4,73247,Discharged,2025-04-15
+P0375,80,Female,Urgent,Neurology,12,16311,Under Observation,2025-04-13
+P0376,9,Female,Elective,Orthopedics,11,86680,Discharged,2025-06-15
+P0377,67,Male,Elective,Neurology,3,16132,Discharged,2025-06-03
+P0378,68,Male,Elective,Neurology,4,16043,Under Observation,2025-11-09
+P0379,35,Female,Urgent,Cardiology,8,58401,Discharged,2025-10-10
+P0380,24,Female,Elective,Pediatrics,8,30255,Discharged,2025-09-23
+P0381,1,Male,Urgent,Pediatrics,3,30501,Discharged,2025-01-02
+P0382,85,Female,Urgent,Cardiology,15,21113,Under Observation,2025-06-22
+P0383,86,Female,Urgent,Neurology,6,61553,Discharged,2025-09-24
+P0384,22,Male,Urgent,Orthopedics,6,4631,Discharged,2025-03-31
+P0385,3,Male,Urgent,Neurology,1,26017,Under Observation,2025-06-05
+P0386,12,Male,Emergency,General Medicine,14,56236,Discharged,2025-09-23
+P0387,7,Male,Urgent,Neurology,4,49681,Under Observation,2025-10-18
+P0388,75,Male,Urgent,Cardiology,15,70593,Transferred,2025-11-08
+P0389,81,Male,Emergency,Neurology,8,23192,Under Observation,2025-06-06
+P0390,14,Female,Urgent,Orthopedics,14,65492,Discharged,2025-05-26
+P0391,68,Male,Emergency,Cardiology,3,76475,Discharged,2025-05-20
+P0392,17,Female,Elective,Pediatrics,3,40029,Discharged,2025-09-02
+P0393,34,Male,Urgent,Cardiology,13,27167,Discharged,2025-06-03
+P0394,54,Male,Emergency,Cardiology,13,56391,Discharged,2025-05-27
+P0395,65,Female,Elective,Orthopedics,9,58728,Under Observation,2025-03-03
+P0396,79,Female,Urgent,Orthopedics,1,11221,Discharged,2025-06-24
+P0397,5,Male,Elective,Neurology,15,57381,Discharged,2025-03-28
+P0398,18,Male,Urgent,Neurology,6,17121,Discharged,2025-07-11
+P0399,26,Male,Emergency,Cardiology,15,57745,Discharged,2025-11-21
+P0400,28,Female,Urgent,General Medicine,14,93316,Discharged,2025-10-11
+P0401,90,Male,Urgent,Neurology,13,54633,Discharged,2025-06-24
+P0402,70,Male,Urgent,Cardiology,11,76628,Transferred,2025-12-23
+P0403,29,Male,Emergency,Neurology,11,32351,Discharged,2025-12-24
+P0404,88,Female,Urgent,Pediatrics,8,92429,Discharged,2025-06-12
+P0405,45,Female,Elective,Neurology,1,81651,Discharged,2025-10-06
+P0406,46,Female,Elective,Pediatrics,6,91835,Discharged,2025-05-05
+P0407,40,Female,Elective,Neurology,11,74677,Transferred,2025-11-17
+P0408,13,Male,Elective,Cardiology,13,65641,Under Observation,2025-05-17
+P0409,85,Male,Elective,Neurology,9,53450,Discharged,2025-04-05
+P0410,2,Male,Elective,Neurology,11,92968,Transferred,2025-02-18
+P0411,16,Female,Emergency,Cardiology,1,85123,Discharged,2025-11-04
+P0412,21,Female,Urgent,Orthopedics,8,42837,Discharged,2025-04-19
+P0413,26,Female,Emergency,Neurology,8,10394,Transferred,2025-10-24
+P0414,12,Other,Emergency,General Medicine,14,2354,Discharged,2025-02-01
+P0415,2,Other,Elective,Orthopedics,5,24881,Discharged,2025-07-02
+P0416,61,Female,Elective,Orthopedics,4,8132,Discharged,2025-06-06
+P0417,88,Male,Elective,Orthopedics,6,22727,Discharged,2025-06-10
+P0418,11,Male,Urgent,Cardiology,3,12729,Discharged,2025-03-03
+P0419,27,Male,Emergency,General Medicine,9,98144,Discharged,2025-01-27
+P0420,46,Female,Emergency,Cardiology,10,11344,Discharged,2025-05-07
+P0421,84,Male,Elective,General Medicine,13,63435,Discharged,2025-06-21
+P0422,63,Female,Urgent,Pediatrics,15,36467,Transferred,2025-10-17
+P0423,69,Female,Elective,General Medicine,2,19073,Discharged,2025-06-18
+P0424,53,Female,Elective,Orthopedics,4,70725,Under Observation,2025-03-31
+P0425,38,Male,Elective,Neurology,5,97115,Discharged,2025-04-06
+P0426,18,Male,Urgent,Pediatrics,4,79484,Discharged,2025-08-12
+P0427,78,Male,Elective,Neurology,13,97574,Discharged,2025-06-09
+P0428,73,Female,Urgent,Orthopedics,3,59841,Transferred,2025-11-25
+P0429,3,Female,Urgent,General Medicine,1,68010,Discharged,2025-06-10
+P0430,65,Female,Emergency,Pediatrics,13,16350,Under Observation,2025-07-26
+P0431,8,Male,Emergency,Pediatrics,15,85537,Discharged,2025-01-24
+P0432,67,Male,Urgent,Cardiology,4,75295,Discharged,2025-03-12
+P0433,75,Male,Emergency,Pediatrics,5,26894,Discharged,2025-11-07
+P0434,12,Female,Elective,Cardiology,8,36770,Discharged,2025-05-06
+P0435,40,Female,Emergency,Orthopedics,8,61867,Discharged,2025-06-03
+P0436,12,Male,Elective,Pediatrics,15,3273,Discharged,2025-08-04
+P0437,52,Female,Emergency,General Medicine,7,82156,Discharged,2025-01-22
+P0438,84,Male,Elective,Pediatrics,1,29497,Discharged,2025-07-04
+P0439,8,Female,Urgent,Neurology,7,9347,Discharged,2025-05-07
+P0440,36,Male,Urgent,Neurology,9,34399,Discharged,2025-02-24
+P0441,88,Male,Urgent,Neurology,8,83906,Discharged,2025-06-02
+P0442,28,Female,Emergency,Neurology,8,28876,Discharged,2025-06-13
+P0443,12,Male,Elective,General Medicine,14,54841,Discharged,2025-03-10
+P0444,44,Male,Emergency,Orthopedics,13,81564,Discharged,2025-07-18
+P0445,46,Male,Urgent,General Medicine,4,5303,Discharged,2025-09-30
+P0446,60,Male,Urgent,Orthopedics,6,76473,Under Observation,2025-04-08
+P0447,29,Female,Emergency,Neurology,11,30292,Discharged,2025-12-19
+P0448,87,Female,Elective,Cardiology,7,70164,Discharged,2025-08-12
+P0449,47,Female,Elective,Orthopedics,7,20433,Transferred,2025-10-10
+P0450,26,Male,Elective,Pediatrics,3,15622,Discharged,2025-01-26
+P0451,87,Female,Elective,Pediatrics,4,79254,Discharged,2025-10-08
+P0452,84,Male,Emergency,Neurology,12,81168,Under Observation,2025-05-03
+P0453,45,Male,Elective,Orthopedics,13,98170,Under Observation,2025-09-17
+P0454,3,Male,Elective,General Medicine,12,68363,Discharged,2025-10-21
+P0455,54,Female,Urgent,General Medicine,5,47656,Discharged,2025-04-02
+P0456,50,Female,Urgent,Cardiology,3,21094,Discharged,2025-04-05
+P0457,14,Female,Urgent,Orthopedics,3,30931,Under Observation,2025-01-22
+P0458,58,Female,Emergency,Cardiology,6,65513,Under Observation,2025-08-09
+P0459,76,Female,Urgent,Cardiology,8,35918,Discharged,2025-10-10
+P0460,10,Female,Elective,General Medicine,14,49384,Discharged,2025-05-30
+P0461,66,Female,Elective,Cardiology,14,18470,Discharged,2025-02-28
+P0462,13,Male,Urgent,Neurology,1,45056,Discharged,2025-04-26
+P0463,68,Male,Urgent,Orthopedics,11,25321,Discharged,2025-05-28
+P0464,38,Male,Emergency,General Medicine,5,12988,Discharged,2025-12-01
+P0465,1,Female,Elective,Orthopedics,3,14931,Discharged,2025-02-15
+P0466,87,Female,Urgent,Cardiology,9,52794,Discharged,2025-05-06
+P0467,15,Female,Elective,General Medicine,1,37909,Discharged,2025-08-21
+P0468,54,Male,Emergency,Pediatrics,6,11793,Discharged,2025-03-28
+P0469,17,Female,Elective,Pediatrics,9,52401,Discharged,2025-11-19
+P0470,84,Male,Urgent,General Medicine,5,18096,Discharged,2025-11-28
+P0471,67,Male,Emergency,Orthopedics,9,3513,Under Observation,2025-05-19
+P0472,73,Male,Urgent,Pediatrics,7,14989,Discharged,2025-09-30
+P0473,39,Male,Urgent,Orthopedics,12,45955,Discharged,2025-10-03
+P0474,43,Female,Urgent,Cardiology,3,95503,Discharged,2025-09-06
+P0475,58,Male,Emergency,Pediatrics,1,25684,Discharged,2025-03-10
+P0476,71,Female,Emergency,Neurology,8,29917,Discharged,2025-01-19
+P0477,77,Male,Elective,Pediatrics,4,25780,Discharged,2025-05-07
+P0478,2,Male,Elective,Neurology,11,36810,Discharged,2025-02-17
+P0479,60,Female,Elective,Pediatrics,2,72298,Discharged,2025-04-17
+P0480,10,Male,Urgent,Orthopedics,9,33564,Discharged,2025-08-21
+P0481,26,Other,Urgent,Orthopedics,15,66442,Discharged,2025-08-03
+P0482,75,Female,Emergency,Neurology,2,90029,Discharged,2025-03-18
+P0483,23,Female,Urgent,Pediatrics,5,94726,Discharged,2025-01-07
+P0484,72,Male,Emergency,Cardiology,13,57171,Discharged,2025-03-24
+P0485,42,Male,Elective,Orthopedics,9,71898,Discharged,2025-06-16
+P0486,21,Female,Emergency,Neurology,3,92078,Discharged,2025-10-12
+P0487,31,Male,Elective,Orthopedics,4,79096,Discharged,2025-05-14
+P0488,48,Male,Urgent,Neurology,12,31392,Discharged,2025-04-15
+P0489,69,Male,Elective,General Medicine,13,14938,Under Observation,2025-07-21
+P0490,55,Female,Urgent,Neurology,6,13253,Under Observation,2025-01-27
+P0491,84,Female,Emergency,Cardiology,8,88441,Under Observation,2025-03-24
+P0492,79,Female,Elective,Cardiology,12,56509,Discharged,2025-01-14
+P0493,68,Female,Elective,General Medicine,3,31042,Discharged,2025-07-11
+P0494,55,Male,Urgent,Neurology,4,35862,Discharged,2025-06-11
+P0495,27,Female,Urgent,Neurology,12,29605,Discharged,2025-08-01
+P0496,38,Male,Elective,General Medicine,3,80587,Discharged,2025-08-14
+P0497,11,Female,Emergency,Neurology,12,62016,Discharged,2025-05-25
+P0498,34,Male,Elective,Neurology,8,88184,Discharged,2025-11-14
+P0499,84,Other,Emergency,Neurology,15,31574,Discharged,2025-12-02
+P0500,39,Male,Elective,Neurology,1,48312,Discharged,2025-02-10
+P0501,11,Male,Emergency,General Medicine,15,13930,Discharged,2025-12-02
+P0502,59,Male,Elective,Orthopedics,4,97194,Discharged,2025-03-13
+P0503,87,Male,Emergency,Pediatrics,1,52163,Transferred,2025-04-01
+P0504,79,Male,Emergency,General Medicine,11,56195,Discharged,2025-07-13
+P0505,25,Female,Emergency,Cardiology,8,42539,Discharged,2025-01-11
+P0506,41,Male,Urgent,Neurology,13,28550,Discharged,2025-05-13
+P0507,48,Female,Urgent,Neurology,2,94944,Discharged,2025-03-13
+P0508,23,Male,Urgent,Orthopedics,2,49920,Discharged,2025-06-26
+P0509,25,Female,Emergency,Neurology,9,68128,Discharged,2025-10-25
+P0510,22,Male,Elective,Pediatrics,14,5656,Discharged,2025-12-04
+P0511,90,Female,Urgent,Neurology,7,29041,Discharged,2025-03-19
+P0512,68,Female,Elective,Orthopedics,12,80792,Discharged,2025-07-18
+P0513,76,Male,Emergency,Cardiology,14,10607,Under Observation,2025-06-23
+P0514,74,Female,Emergency,Pediatrics,14,11940,Discharged,2025-06-01
+P0515,87,Male,Emergency,Pediatrics,8,81365,Discharged,2025-08-19
+P0516,10,Male,Urgent,General Medicine,11,32257,Discharged,2025-12-28
+P0517,80,Female,Emergency,Neurology,8,28840,Discharged,2025-05-28
+P0518,6,Female,Urgent,Cardiology,11,57401,Discharged,2025-01-24
+P0519,43,Male,Urgent,General Medicine,9,21102,Discharged,2025-12-01
+P0520,54,Male,Urgent,Orthopedics,8,6211,Discharged,2025-12-07
+P0521,33,Female,Urgent,Pediatrics,7,2436,Discharged,2025-04-28
+P0522,14,Female,Emergency,General Medicine,10,9773,Discharged,2025-07-03
+P0523,18,Other,Urgent,Orthopedics,12,17536,Discharged,2025-11-11
+P0524,75,Female,Emergency,Pediatrics,14,70220,Under Observation,2025-07-03
+P0525,29,Female,Emergency,Pediatrics,10,31199,Discharged,2025-06-25
+P0526,28,Male,Emergency,Orthopedics,2,9034,Under Observation,2025-12-03
+P0527,84,Female,Emergency,Cardiology,9,3413,Discharged,2025-10-30
+P0528,13,Male,Emergency,Cardiology,5,48754,Discharged,2025-07-05
+P0529,83,Female,Emergency,Orthopedics,1,84333,Discharged,2025-02-28
+P0530,83,Male,Emergency,Orthopedics,2,35192,Under Observation,2025-06-10
+P0531,54,Female,Elective,Cardiology,9,8257,Discharged,2025-09-04
+P0532,15,Female,Emergency,Cardiology,15,24352,Discharged,2025-04-10
+P0533,15,Female,Emergency,General Medicine,8,50938,Discharged,2025-07-16
+P0534,26,Female,Urgent,General Medicine,7,20500,Discharged,2025-08-29
+P0535,52,Male,Emergency,Cardiology,2,97891,Discharged,2025-02-01
+P0536,14,Female,Emergency,Orthopedics,11,76815,Discharged,2025-07-27
+P0537,42,Male,Emergency,Cardiology,1,35769,Discharged,2025-09-27
+P0538,11,Male,Emergency,General Medicine,13,95252,Transferred,2025-03-20
+P0539,49,Male,Elective,Pediatrics,13,33852,Discharged,2025-07-20
+P0540,2,Male,Urgent,Pediatrics,15,15737,Transferred,2025-09-16
+P0541,64,Male,Urgent,Orthopedics,5,93952,Discharged,2025-01-17
+P0542,5,Female,Elective,General Medicine,3,96049,Discharged,2025-08-24
+P0543,18,Female,Emergency,Pediatrics,5,32640,Discharged,2025-04-05
+P0544,16,Female,Urgent,General Medicine,12,60287,Under Observation,2025-05-26
+P0545,75,Male,Emergency,Orthopedics,4,18982,Discharged,2025-08-25
+P0546,5,Male,Elective,General Medicine,14,64883,Discharged,2025-01-02
+P0547,39,Male,Elective,Orthopedics,3,69632,Discharged,2025-01-07
+P0548,54,Female,Urgent,Pediatrics,1,71573,Discharged,2025-06-13
+P0549,47,Female,Emergency,Orthopedics,4,57736,Discharged,2025-12-13
+P0550,62,Male,Elective,Pediatrics,12,71004,Discharged,2025-01-03
+P0551,73,Female,Elective,Cardiology,10,56395,Under Observation,2025-10-15
+P0552,36,Male,Elective,Cardiology,6,82342,Discharged,2025-01-28
+P0553,75,Male,Urgent,Cardiology,10,19599,Discharged,2025-06-28
+P0554,29,Male,Urgent,Orthopedics,10,49380,Discharged,2025-06-07
+P0555,89,Male,Elective,General Medicine,9,42807,Transferred,2025-06-20
+P0556,46,Female,Elective,Neurology,8,54269,Transferred,2025-01-30
+P0557,67,Female,Urgent,Cardiology,2,15924,Discharged,2025-10-03
+P0558,79,Male,Elective,Pediatrics,4,33735,Under Observation,2025-04-11
+P0559,72,Female,Emergency,General Medicine,8,95506,Discharged,2025-10-09
+P0560,77,Female,Elective,General Medicine,3,12315,Transferred,2025-08-28
+P0561,49,Female,Emergency,Orthopedics,8,64260,Under Observation,2025-07-21
+P0562,4,Female,Emergency,Orthopedics,2,67135,Discharged,2025-04-23
+P0563,45,Male,Elective,Cardiology,12,48503,Discharged,2025-08-27
+P0564,17,Female,Urgent,Cardiology,2,5293,Discharged,2025-12-31
+P0565,81,Male,Urgent,Pediatrics,2,5366,Discharged,2025-12-03
+P0566,22,Other,Emergency,Neurology,10,29012,Discharged,2025-12-01
+P0567,21,Male,Elective,General Medicine,4,12046,Discharged,2025-03-22
+P0568,23,Female,Emergency,General Medicine,6,11234,Discharged,2025-08-02
+P0569,58,Male,Urgent,Neurology,5,17692,Under Observation,2025-05-26
+P0570,52,Male,Emergency,Neurology,4,20691,Discharged,2025-12-19
+P0571,86,Female,Urgent,General Medicine,12,84171,Discharged,2025-12-13
+P0572,38,Female,Urgent,Cardiology,11,64596,Discharged,2025-11-13
+P0573,26,Male,Urgent,Orthopedics,4,4980,Discharged,2025-03-01
+P0574,5,Female,Emergency,Pediatrics,11,63591,Discharged,2025-04-27
+P0575,1,Female,Urgent,General Medicine,11,15397,Discharged,2025-09-17
+P0576,34,Male,Urgent,General Medicine,9,43263,Discharged,2025-10-01
+P0577,84,Female,Elective,Cardiology,9,5728,Discharged,2025-05-08
+P0578,48,Female,Urgent,Cardiology,15,10836,Discharged,2025-02-19
+P0579,81,Female,Urgent,Neurology,7,14994,Discharged,2025-02-19
+P0580,10,Male,Emergency,Neurology,6,44471,Discharged,2025-09-07
+P0581,9,Male,Urgent,Cardiology,9,47382,Discharged,2025-06-15
+P0582,76,Female,Urgent,Pediatrics,13,36569,Discharged,2025-06-29
+P0583,10,Female,Emergency,Cardiology,11,62777,Discharged,2025-10-25
+P0584,5,Female,Emergency,General Medicine,2,72605,Discharged,2025-01-07
+P0585,37,Other,Urgent,Orthopedics,7,73416,Discharged,2025-10-03
+P0586,84,Female,Emergency,General Medicine,12,58745,Under Observation,2025-04-11
+P0587,63,Female,Elective,Neurology,4,55465,Discharged,2025-12-06
+P0588,9,Female,Urgent,Neurology,15,50173,Discharged,2025-12-15
+P0589,76,Female,Elective,General Medicine,13,25317,Discharged,2025-07-03
+P0590,76,Male,Urgent,Neurology,13,49724,Discharged,2025-04-26
+P0591,73,Male,Emergency,General Medicine,2,2989,Discharged,2025-03-27
+P0592,82,Female,Emergency,Cardiology,9,96698,Discharged,2025-03-08
+P0593,22,Male,Urgent,Cardiology,8,38269,Transferred,2025-12-31
+P0594,89,Male,Elective,General Medicine,10,76117,Discharged,2025-03-10
+P0595,29,Female,Emergency,General Medicine,13,95757,Discharged,2025-06-12
+P0596,73,Male,Emergency,Cardiology,6,50704,Discharged,2025-06-24
+P0597,53,Male,Elective,Pediatrics,9,86459,Discharged,2025-09-05
+P0598,71,Female,Elective,Cardiology,11,48964,Discharged,2025-11-04
+P0599,57,Female,Emergency,Pediatrics,12,14964,Discharged,2025-07-23
+P0600,58,Male,Elective,General Medicine,12,4594,Under Observation,2025-10-04
+P0601,56,Male,Elective,Pediatrics,6,15291,Discharged,2025-07-26
+P0602,71,Male,Elective,Pediatrics,15,94366,Discharged,2025-06-09
+P0603,67,Female,Emergency,Neurology,1,48561,Discharged,2025-02-27
+P0604,13,Female,Elective,General Medicine,8,33279,Discharged,2025-03-18
+P0605,75,Male,Urgent,Neurology,10,45714,Under Observation,2025-06-07
+P0606,49,Female,Emergency,Orthopedics,1,27082,Discharged,2025-01-17
+P0607,30,Male,Emergency,Neurology,7,87315,Discharged,2025-04-26
+P0608,47,Male,Urgent,Orthopedics,9,99943,Discharged,2025-06-18
+P0609,88,Other,Elective,Pediatrics,10,10321,Under Observation,2025-06-22
+P0610,78,Male,Urgent,Orthopedics,2,72432,Discharged,2025-10-25
+P0611,76,Male,Elective,Cardiology,5,34889,Discharged,2025-12-20
+P0612,42,Male,Urgent,Neurology,4,6641,Transferred,2025-09-24
+P0613,71,Female,Elective,General Medicine,10,92377,Discharged,2025-01-30
+P0614,35,Female,Emergency,Orthopedics,5,8064,Discharged,2025-05-30
+P0615,62,Other,Urgent,Orthopedics,9,22178,Discharged,2025-09-24
+P0616,58,Male,Elective,Orthopedics,11,4499,Discharged,2025-08-06
+P0617,23,Male,Emergency,Neurology,12,48186,Discharged,2025-06-17
+P0618,24,Female,Elective,Orthopedics,3,60763,Transferred,2025-06-09
+P0619,6,Male,Elective,General Medicine,14,33426,Discharged,2025-05-29
+P0620,13,Female,Emergency,Pediatrics,3,9013,Discharged,2025-07-31
+P0621,40,Female,Urgent,General Medicine,1,13383,Under Observation,2025-03-07
+P0622,44,Male,Emergency,Pediatrics,1,93472,Discharged,2025-07-08
+P0623,15,Female,Emergency,Pediatrics,4,80980,Under Observation,2025-03-17
+P0624,38,Male,Elective,Cardiology,14,93817,Discharged,2025-09-06
+P0625,55,Male,Urgent,Neurology,4,54019,Under Observation,2025-11-12
+P0626,21,Female,Urgent,Neurology,11,55513,Discharged,2025-07-05
+P0627,31,Female,Urgent,Cardiology,7,79028,Discharged,2025-05-22
+P0628,34,Female,Emergency,Cardiology,1,62431,Discharged,2025-12-10
+P0629,46,Female,Urgent,General Medicine,7,44771,Discharged,2025-08-29
+P0630,33,Other,Urgent,Neurology,1,30605,Under Observation,2025-06-06
+P0631,67,Other,Elective,Cardiology,8,49580,Discharged,2025-01-11
+P0632,30,Female,Elective,Neurology,9,8269,Discharged,2025-01-06
+P0633,40,Male,Emergency,Neurology,8,20860,Discharged,2025-03-22
+P0634,35,Female,Urgent,Cardiology,5,74271,Discharged,2025-03-28
+P0635,17,Other,Urgent,Cardiology,12,87070,Discharged,2025-09-21
+P0636,62,Male,Elective,General Medicine,9,11975,Discharged,2025-07-02
+P0637,22,Male,Elective,Pediatrics,4,11496,Discharged,2025-12-31
+P0638,27,Male,Elective,Orthopedics,7,10384,Transferred,2025-07-17
+P0639,72,Male,Emergency,General Medicine,2,79575,Discharged,2025-11-26
+P0640,86,Female,Elective,Pediatrics,14,32500,Discharged,2025-07-21
+P0641,61,Male,Urgent,Pediatrics,12,34023,Discharged,2025-05-11
+P0642,83,Female,Urgent,Cardiology,5,3221,Discharged,2025-09-18
+P0643,77,Female,Urgent,Pediatrics,11,97315,Discharged,2025-06-14
+P0644,44,Female,Elective,Cardiology,11,44535,Discharged,2025-04-11
+P0645,70,Male,Urgent,Cardiology,10,80150,Discharged,2025-06-22
+P0646,30,Male,Elective,Orthopedics,1,71353,Discharged,2025-08-31
+P0647,42,Female,Elective,General Medicine,14,15894,Discharged,2025-05-18
+P0648,49,Female,Elective,Cardiology,15,80532,Discharged,2025-09-14
+P0649,87,Female,Urgent,Neurology,15,55930,Discharged,2025-12-24
+P0650,77,Female,Urgent,Neurology,15,61222,Discharged,2025-05-31
+P0651,45,Male,Emergency,Neurology,14,21631,Discharged,2025-04-18
+P0652,59,Female,Emergency,Pediatrics,12,84994,Discharged,2025-05-27
+P0653,19,Male,Elective,Neurology,1,93304,Discharged,2025-11-02
+P0654,73,Male,Elective,Neurology,7,41837,Discharged,2025-03-07
+P0655,50,Female,Urgent,Cardiology,4,11062,Discharged,2025-12-22
+P0656,48,Male,Elective,Cardiology,4,85180,Discharged,2025-06-01
+P0657,69,Male,Elective,Cardiology,13,88965,Under Observation,2025-11-04
+P0658,57,Male,Urgent,Orthopedics,13,51634,Discharged,2025-10-15
+P0659,7,Male,Elective,Orthopedics,8,58757,Discharged,2025-10-14
+P0660,26,Female,Elective,Orthopedics,12,23857,Discharged,2025-11-28
+P0661,16,Male,Elective,Pediatrics,2,8612,Discharged,2025-03-09
+P0662,67,Female,Elective,Orthopedics,4,94527,Discharged,2025-08-05
+P0663,4,Female,Urgent,Cardiology,13,49330,Transferred,2025-02-06
+P0664,19,Male,Urgent,Neurology,7,28947,Discharged,2025-04-20
+P0665,54,Male,Elective,Neurology,9,69937,Discharged,2025-01-15
+P0666,63,Female,Elective,Pediatrics,7,4567,Discharged,2025-09-07
+P0667,46,Female,Elective,Neurology,4,9834,Discharged,2025-08-10
+P0668,78,Female,Emergency,Cardiology,13,25782,Discharged,2025-09-28
+P0669,83,Female,Elective,General Medicine,12,46164,Discharged,2025-03-06
+P0670,12,Male,Emergency,Orthopedics,11,37935,Discharged,2025-05-02
+P0671,86,Male,Emergency,Cardiology,6,20360,Under Observation,2025-09-04
+P0672,56,Female,Emergency,General Medicine,10,36432,Discharged,2025-10-29
+P0673,58,Male,Elective,Neurology,15,34723,Under Observation,2025-11-20
+P0674,9,Female,Emergency,Pediatrics,10,53417,Discharged,2025-01-27
+P0675,56,Female,Elective,Pediatrics,8,57149,Discharged,2025-05-27
+P0676,66,Female,Elective,Neurology,5,88547,Discharged,2025-01-04
+P0677,53,Male,Elective,Orthopedics,8,81065,Discharged,2025-10-26
+P0678,8,Male,Urgent,Orthopedics,6,30649,Under Observation,2025-02-14
+P0679,48,Male,Elective,General Medicine,10,90462,Discharged,2025-10-28
+P0680,85,Male,Urgent,Cardiology,1,53036,Under Observation,2025-02-26
+P0681,66,Female,Urgent,Neurology,3,20392,Discharged,2025-01-06
+P0682,13,Male,Emergency,Cardiology,12,35333,Discharged,2025-11-17
+P0683,87,Male,Emergency,General Medicine,6,74693,Discharged,2025-06-10
+P0684,87,Male,Elective,Cardiology,7,82534,Discharged,2025-06-05
+P0685,16,Male,Urgent,Orthopedics,9,38664,Under Observation,2025-08-25
+P0686,73,Female,Emergency,General Medicine,7,17445,Transferred,2025-04-11
+P0687,37,Male,Emergency,Pediatrics,12,20805,Discharged,2025-09-10
+P0688,54,Other,Urgent,Neurology,4,12144,Discharged,2025-06-06
+P0689,41,Male,Urgent,Cardiology,12,70476,Discharged,2025-04-10
+P0690,71,Female,Emergency,General Medicine,4,51294,Discharged,2025-05-25
+P0691,90,Male,Elective,Cardiology,6,46216,Discharged,2025-01-03
+P0692,72,Male,Elective,Cardiology,9,67845,Discharged,2025-04-21
+P0693,84,Female,Emergency,Pediatrics,14,83210,Discharged,2025-08-04
+P0694,86,Other,Emergency,Pediatrics,4,79962,Transferred,2025-02-20
+P0695,9,Female,Elective,General Medicine,9,15440,Discharged,2025-02-13
+P0696,23,Male,Elective,Pediatrics,1,59783,Discharged,2025-08-28
+P0697,65,Male,Emergency,Cardiology,2,88487,Discharged,2025-06-06
+P0698,54,Female,Elective,Cardiology,12,77838,Under Observation,2025-02-19
+P0699,5,Male,Emergency,Neurology,11,34282,Discharged,2025-09-30
+P0700,9,Female,Urgent,Cardiology,6,40485,Discharged,2025-10-11
+P0701,47,Female,Emergency,Pediatrics,10,89240,Discharged,2025-01-13
+P0702,56,Female,Emergency,Cardiology,6,5221,Transferred,2025-03-15
+P0703,16,Female,Emergency,Orthopedics,5,53491,Discharged,2025-05-16
+P0704,16,Female,Urgent,Pediatrics,7,13377,Discharged,2025-09-24
+P0705,12,Male,Urgent,General Medicine,5,89670,Discharged,2025-01-28
+P0706,51,Male,Elective,Neurology,13,5794,Discharged,2025-10-22
+P0707,1,Female,Emergency,Orthopedics,7,4292,Discharged,2025-04-27
+P0708,52,Female,Urgent,Orthopedics,5,34236,Discharged,2025-02-15
+P0709,43,Male,Elective,General Medicine,9,21616,Discharged,2025-11-12
+P0710,42,Male,Urgent,Orthopedics,12,50558,Discharged,2025-02-01
+P0711,62,Female,Elective,Neurology,5,31358,Discharged,2025-02-17
+P0712,48,Female,Urgent,General Medicine,15,36919,Discharged,2025-12-13
+P0713,66,Female,Urgent,Pediatrics,7,57362,Discharged,2025-07-09
+P0714,69,Male,Emergency,Orthopedics,10,56939,Discharged,2025-06-19
+P0715,83,Male,Urgent,Cardiology,15,93624,Discharged,2025-09-08
+P0716,72,Female,Emergency,Orthopedics,7,49100,Discharged,2025-08-19
+P0717,47,Male,Elective,Pediatrics,3,57295,Discharged,2025-08-12
+P0718,45,Female,Emergency,Pediatrics,12,68439,Discharged,2025-01-09
+P0719,22,Female,Urgent,Orthopedics,1,19074,Under Observation,2025-07-21
+P0720,54,Male,Emergency,Cardiology,7,67362,Discharged,2025-04-12
+P0721,13,Male,Elective,Orthopedics,15,86468,Discharged,2025-10-22
+P0722,84,Male,Elective,Pediatrics,7,33170,Discharged,2025-07-04
+P0723,77,Female,Urgent,Pediatrics,11,19477,Discharged,2025-02-15
+P0724,11,Female,Urgent,Cardiology,8,35929,Discharged,2025-11-20
+P0725,71,Male,Emergency,Neurology,4,28954,Discharged,2025-04-14
+P0726,11,Female,Urgent,Orthopedics,5,59345,Transferred,2025-04-10
+P0727,65,Male,Emergency,Cardiology,8,86646,Discharged,2025-12-08
+P0728,8,Male,Elective,Pediatrics,2,60450,Discharged,2025-10-10
+P0729,44,Female,Elective,Cardiology,7,14300,Discharged,2025-11-10
+P0730,60,Male,Elective,General Medicine,7,32840,Discharged,2025-08-30
+P0731,66,Male,Urgent,Pediatrics,13,69553,Under Observation,2025-11-29
+P0732,38,Female,Urgent,General Medicine,2,34371,Discharged,2025-02-12
+P0733,83,Male,Elective,General Medicine,13,59466,Discharged,2025-08-07
+P0734,70,Female,Urgent,Neurology,7,70017,Discharged,2025-04-18
+P0735,19,Male,Emergency,Pediatrics,10,34258,Discharged,2025-05-26
+P0736,61,Male,Emergency,Orthopedics,9,65446,Discharged,2025-03-28
+P0737,66,Male,Elective,Cardiology,5,41015,Discharged,2025-03-16
+P0738,31,Male,Elective,Neurology,14,15235,Transferred,2025-06-11
+P0739,67,Male,Urgent,Neurology,4,38474,Discharged,2025-12-02
+P0740,81,Male,Urgent,Orthopedics,1,45222,Discharged,2025-08-20
+P0741,74,Female,Emergency,Neurology,12,2233,Discharged,2025-05-08
+P0742,69,Male,Emergency,Orthopedics,10,89486,Transferred,2025-06-08
+P0743,58,Male,Urgent,Orthopedics,14,53733,Discharged,2025-07-13
+P0744,25,Male,Elective,Neurology,7,5557,Discharged,2025-03-31
+P0745,72,Male,Emergency,General Medicine,1,87064,Discharged,2025-07-10
+P0746,33,Male,Urgent,Neurology,1,85806,Discharged,2025-09-11
+P0747,48,Female,Elective,General Medicine,7,3180,Transferred,2025-03-30
+P0748,29,Male,Urgent,Neurology,4,17991,Discharged,2025-08-02
+P0749,29,Female,Urgent,Pediatrics,14,37652,Discharged,2025-09-16
+P0750,15,Female,Urgent,Neurology,2,51710,Transferred,2025-07-09
+P0751,87,Male,Elective,Cardiology,14,73125,Discharged,2025-04-17
+P0752,14,Male,Urgent,Cardiology,4,43585,Discharged,2025-07-22
+P0753,8,Male,Urgent,Pediatrics,2,61948,Discharged,2025-10-17
+P0754,85,Female,Emergency,Pediatrics,5,2992,Discharged,2025-03-22
+P0755,50,Male,Emergency,Neurology,3,66537,Transferred,2025-07-29
+P0756,40,Female,Emergency,General Medicine,7,91709,Discharged,2025-09-06
+P0757,67,Female,Elective,Orthopedics,5,53568,Discharged,2025-04-28
+P0758,35,Female,Elective,Cardiology,8,46583,Discharged,2025-05-22
+P0759,12,Female,Emergency,Orthopedics,9,31117,Under Observation,2025-11-21
+P0760,66,Other,Elective,General Medicine,1,95519,Discharged,2025-05-13
+P0761,16,Male,Emergency,Pediatrics,2,5253,Under Observation,2025-08-07
+P0762,50,Male,Elective,Pediatrics,3,30101,Under Observation,2025-02-24
+P0763,86,Male,Elective,Cardiology,3,15593,Discharged,2025-12-04
+P0764,85,Female,Elective,Neurology,2,86895,Transferred,2025-08-06
+P0765,33,Female,Elective,Orthopedics,5,49295,Discharged,2025-10-05
+P0766,71,Female,Elective,Cardiology,9,92395,Discharged,2025-08-08
+P0767,56,Male,Urgent,Orthopedics,5,67186,Discharged,2025-05-10
+P0768,44,Other,Urgent,Cardiology,5,56570,Transferred,2025-05-05
+P0769,13,Female,Urgent,Cardiology,8,52712,Discharged,2025-09-13
+P0770,34,Female,Elective,Cardiology,9,21862,Discharged,2025-11-10
+P0771,59,Other,Elective,Neurology,5,57081,Under Observation,2025-02-16
+P0772,89,Male,Emergency,General Medicine,4,69154,Discharged,2025-11-05
+P0773,1,Male,Elective,Cardiology,7,96604,Transferred,2025-10-30
+P0774,65,Female,Emergency,Pediatrics,1,55800,Transferred,2025-02-09
+P0775,77,Male,Elective,Neurology,8,94006,Discharged,2025-02-09
+P0776,86,Male,Emergency,Cardiology,15,94564,Discharged,2025-09-11
+P0777,39,Male,Elective,Neurology,6,53210,Discharged,2025-11-04
+P0778,11,Male,Urgent,General Medicine,2,45049,Transferred,2025-05-24
+P0779,25,Female,Urgent,Cardiology,11,15985,Discharged,2025-08-22
+P0780,77,Female,Elective,Cardiology,2,28314,Discharged,2025-12-31
+P0781,80,Male,Emergency,Pediatrics,3,88152,Discharged,2025-04-28
+P0782,58,Male,Emergency,Orthopedics,3,15552,Discharged,2025-03-24
+P0783,12,Male,Emergency,Neurology,14,40912,Discharged,2025-12-28
+P0784,11,Female,Urgent,General Medicine,15,70466,Discharged,2025-04-13
+P0785,44,Female,Urgent,Pediatrics,9,25581,Under Observation,2025-06-22
+P0786,53,Female,Elective,Neurology,10,97463,Discharged,2025-06-11
+P0787,3,Male,Emergency,Orthopedics,10,65650,Under Observation,2025-07-10
+P0788,62,Male,Emergency,Cardiology,10,4777,Discharged,2025-04-09
+P0789,50,Male,Urgent,Neurology,9,26223,Under Observation,2025-09-05
+P0790,2,Female,Emergency,Orthopedics,15,74564,Discharged,2025-09-10
+P0791,9,Male,Emergency,Cardiology,11,86593,Discharged,2025-03-15
+P0792,41,Female,Emergency,Pediatrics,2,92840,Discharged,2025-06-25
+P0793,66,Female,Emergency,Pediatrics,6,85415,Discharged,2025-01-21
+P0794,75,Male,Elective,Neurology,15,9328,Discharged,2025-03-22
+P0795,39,Male,Urgent,Neurology,7,73510,Transferred,2025-12-27
+P0796,27,Male,Emergency,Cardiology,4,12796,Discharged,2025-07-04
+P0797,88,Male,Urgent,Orthopedics,14,9502,Discharged,2025-08-16
+P0798,42,Male,Emergency,Cardiology,10,69812,Discharged,2025-11-21
+P0799,29,Female,Emergency,Neurology,9,48860,Discharged,2025-09-18
+P0800,40,Male,Emergency,Orthopedics,7,65501,Discharged,2025-10-17
+P0801,2,Male,Urgent,General Medicine,2,85446,Discharged,2025-09-17
+P0802,28,Female,Elective,Orthopedics,6,8745,Discharged,2025-07-02
+P0803,47,Female,Urgent,Neurology,7,53698,Under Observation,2025-08-19
+P0804,83,Male,Emergency,General Medicine,14,83774,Discharged,2025-04-16
+P0805,67,Female,Emergency,General Medicine,5,45149,Discharged,2025-11-22
+P0806,71,Female,Urgent,General Medicine,3,53296,Discharged,2025-03-07
+P0807,50,Female,Emergency,Orthopedics,7,50790,Discharged,2025-11-19
+P0808,10,Female,Emergency,Pediatrics,15,90906,Discharged,2025-11-17
+P0809,36,Male,Elective,Neurology,8,6889,Under Observation,2025-02-21
+P0810,90,Female,Elective,Pediatrics,6,88043,Discharged,2025-09-17
+P0811,4,Male,Emergency,Neurology,11,82006,Discharged,2025-12-28
+P0812,80,Female,Elective,Neurology,10,81626,Discharged,2025-07-28
+P0813,62,Female,Urgent,Orthopedics,5,42404,Discharged,2025-05-05
+P0814,26,Male,Elective,Orthopedics,15,52558,Transferred,2025-11-17
+P0815,71,Male,Elective,General Medicine,9,38160,Discharged,2025-07-07
+P0816,76,Female,Emergency,Neurology,1,26667,Discharged,2025-02-14
+P0817,4,Female,Elective,Pediatrics,7,87793,Under Observation,2025-04-01
+P0818,10,Male,Urgent,Neurology,14,51586,Discharged,2025-09-07
+P0819,60,Female,Elective,Orthopedics,6,72888,Transferred,2025-06-16
+P0820,90,Female,Urgent,Pediatrics,9,11879,Discharged,2025-03-21
+P0821,3,Female,Emergency,Orthopedics,10,79315,Transferred,2025-10-19
+P0822,60,Male,Emergency,General Medicine,11,66567,Discharged,2025-02-14
+P0823,13,Male,Elective,Pediatrics,14,99766,Discharged,2025-03-21
+P0824,59,Female,Emergency,Pediatrics,3,15129,Discharged,2025-06-19
+P0825,57,Male,Elective,Orthopedics,8,54924,Discharged,2025-01-15
+P0826,9,Female,Urgent,Orthopedics,9,52095,Discharged,2025-05-22
+P0827,62,Male,Elective,Cardiology,3,54763,Discharged,2025-11-29
+P0828,81,Female,Elective,Orthopedics,11,7329,Discharged,2025-12-10
+P0829,78,Male,Urgent,Pediatrics,2,48366,Transferred,2025-11-15
+P0830,3,Male,Emergency,Orthopedics,7,31352,Under Observation,2025-04-29
+P0831,23,Female,Urgent,Neurology,5,62501,Discharged,2025-01-24
+P0832,22,Female,Emergency,Cardiology,3,24744,Under Observation,2025-10-25
+P0833,41,Female,Urgent,Neurology,13,44635,Discharged,2025-05-17
+P0834,13,Female,Elective,Neurology,4,62763,Discharged,2025-10-01
+P0835,77,Female,Emergency,Pediatrics,4,8276,Transferred,2025-02-13
+P0836,70,Female,Urgent,Orthopedics,13,79105,Discharged,2025-09-01
+P0837,73,Male,Emergency,Cardiology,14,72142,Discharged,2025-08-03
+P0838,18,Female,Elective,Cardiology,1,7615,Discharged,2025-12-02
+P0839,2,Female,Urgent,Pediatrics,5,8344,Discharged,2025-02-07
+P0840,82,Male,Urgent,Pediatrics,11,85328,Transferred,2025-05-29
+P0841,27,Male,Urgent,General Medicine,12,29766,Discharged,2025-12-28
+P0842,60,Female,Elective,Cardiology,15,86356,Discharged,2025-05-23
+P0843,82,Female,Elective,Cardiology,9,50927,Discharged,2025-08-29
+P0844,4,Female,Emergency,Cardiology,1,35542,Discharged,2025-02-28
+P0845,1,Other,Urgent,General Medicine,14,28809,Discharged,2025-09-23
+P0846,1,Female,Elective,General Medicine,3,66583,Under Observation,2025-04-11
+P0847,15,Male,Urgent,Pediatrics,2,12753,Discharged,2025-07-28
+P0848,5,Male,Elective,Cardiology,11,41456,Transferred,2025-11-18
+P0849,74,Male,Urgent,Cardiology,10,35894,Discharged,2025-08-30
+P0850,55,Male,Emergency,Pediatrics,1,17110,Transferred,2025-06-23
+P0851,89,Female,Urgent,Pediatrics,3,36576,Discharged,2025-03-11
+P0852,73,Female,Emergency,General Medicine,9,53809,Discharged,2025-05-05
+P0853,87,Male,Emergency,Cardiology,4,68401,Discharged,2025-11-06
+P0854,22,Male,Elective,Cardiology,11,10463,Discharged,2025-03-20
+P0855,26,Female,Elective,Cardiology,7,87495,Under Observation,2025-08-28
+P0856,77,Male,Urgent,General Medicine,9,88091,Discharged,2025-06-27
+P0857,23,Female,Elective,Pediatrics,8,69814,Under Observation,2025-04-28
+P0858,6,Male,Emergency,General Medicine,6,92581,Discharged,2025-09-19
+P0859,61,Female,Emergency,Neurology,6,43939,Discharged,2025-05-13
+P0860,73,Male,Elective,General Medicine,11,82518,Discharged,2025-04-15
+P0861,88,Female,Elective,Cardiology,8,73272,Discharged,2025-07-13
+P0862,84,Male,Elective,Pediatrics,9,57128,Discharged,2025-10-04
+P0863,11,Female,Emergency,Pediatrics,9,19591,Discharged,2025-11-12
+P0864,70,Male,Elective,General Medicine,4,56645,Under Observation,2025-08-18
+P0865,77,Male,Elective,Pediatrics,14,90333,Discharged,2025-08-30
+P0866,63,Female,Urgent,Orthopedics,9,98492,Discharged,2025-10-15
+P0867,74,Male,Elective,Orthopedics,11,45910,Discharged,2025-04-09
+P0868,76,Male,Urgent,Neurology,14,26294,Discharged,2025-04-02
+P0869,41,Male,Emergency,Pediatrics,14,75256,Discharged,2025-06-26
+P0870,4,Male,Urgent,General Medicine,11,9443,Discharged,2025-08-19
+P0871,42,Male,Emergency,Cardiology,12,16807,Discharged,2025-08-24
+P0872,19,Female,Emergency,Pediatrics,8,57070,Discharged,2025-02-26
+P0873,11,Male,Urgent,Cardiology,12,99040,Discharged,2025-10-12
+P0874,12,Female,Elective,Orthopedics,5,34221,Discharged,2025-05-13
+P0875,63,Other,Elective,Cardiology,11,45446,Discharged,2025-11-17
+P0876,46,Male,Elective,General Medicine,2,33589,Discharged,2025-09-22
+P0877,49,Female,Urgent,Orthopedics,14,45169,Discharged,2025-12-25
+P0878,68,Female,Emergency,Orthopedics,4,2694,Discharged,2025-08-19
+P0879,50,Female,Emergency,General Medicine,10,60283,Under Observation,2025-07-12
+P0880,57,Male,Emergency,General Medicine,1,60432,Discharged,2025-03-10
+P0881,8,Male,Urgent,Neurology,3,32925,Discharged,2025-05-26
+P0882,77,Male,Emergency,Pediatrics,15,27875,Discharged,2025-11-10
+P0883,41,Female,Elective,Orthopedics,13,76638,Discharged,2025-05-20
+P0884,14,Other,Elective,Cardiology,4,20410,Discharged,2025-01-20
+P0885,74,Female,Emergency,Cardiology,2,6612,Transferred,2025-03-31
+P0886,67,Male,Elective,Neurology,13,5962,Under Observation,2025-08-06
+P0887,5,Female,Emergency,General Medicine,15,88412,Discharged,2025-08-18
+P0888,18,Male,Emergency,Orthopedics,3,37707,Discharged,2025-12-26
+P0889,2,Female,Emergency,Neurology,10,11979,Discharged,2025-12-07
+P0890,25,Male,Urgent,Orthopedics,5,88139,Discharged,2025-07-13
+P0891,9,Female,Elective,Pediatrics,12,16565,Discharged,2025-07-22
+P0892,64,Female,Urgent,Orthopedics,7,34994,Discharged,2025-10-20
+P0893,48,Male,Elective,Cardiology,2,4027,Discharged,2025-01-18
+P0894,89,Male,Emergency,Cardiology,5,68549,Discharged,2025-08-06
+P0895,68,Female,Elective,Orthopedics,9,70532,Discharged,2025-06-23
+P0896,56,Male,Urgent,Orthopedics,12,76142,Discharged,2025-10-13
+P0897,46,Female,Elective,Pediatrics,1,27778,Discharged,2025-10-20
+P0898,5,Female,Emergency,Orthopedics,15,34154,Discharged,2025-08-28
+P0899,7,Female,Emergency,General Medicine,10,93936,Discharged,2025-08-28
+P0900,56,Male,Urgent,Orthopedics,14,82521,Discharged,2025-09-10
+P0901,1,Male,Elective,Neurology,14,5641,Discharged,2025-07-31
+P0902,4,Male,Urgent,General Medicine,3,69804,Discharged,2025-03-25
+P0903,20,Female,Elective,General Medicine,2,81649,Discharged,2025-04-14
+P0904,80,Male,Emergency,General Medicine,12,56806,Discharged,2025-09-28
+P0905,42,Male,Urgent,Cardiology,3,64711,Discharged,2025-08-14
+P0906,64,Male,Urgent,General Medicine,3,2097,Discharged,2025-03-28
+P0907,38,Female,Urgent,Neurology,8,4945,Under Observation,2025-11-17
+P0908,16,Male,Urgent,General Medicine,14,5438,Discharged,2025-12-24
+P0909,34,Female,Emergency,General Medicine,12,17579,Transferred,2025-08-17
+P0910,9,Female,Urgent,General Medicine,8,99105,Discharged,2025-03-25
+P0911,70,Female,Emergency,Pediatrics,3,64167,Discharged,2025-12-09
+P0912,17,Other,Urgent,Orthopedics,6,78664,Discharged,2025-03-28
+P0913,34,Female,Emergency,Cardiology,11,30967,Discharged,2025-06-07
+P0914,89,Female,Elective,General Medicine,3,93882,Discharged,2025-11-10
+P0915,54,Male,Urgent,General Medicine,8,21493,Discharged,2025-07-10
+P0916,42,Female,Emergency,Cardiology,1,90426,Discharged,2025-03-30
+P0917,49,Female,Emergency,Cardiology,5,5017,Discharged,2025-01-30
+P0918,71,Female,Urgent,Neurology,4,4003,Discharged,2025-05-12
+P0919,23,Female,Emergency,Pediatrics,11,9732,Discharged,2025-09-03
+P0920,58,Other,Elective,Orthopedics,14,79601,Discharged,2025-09-18
+P0921,79,Female,Urgent,Pediatrics,3,27234,Discharged,2025-03-23
+P0922,52,Female,Elective,Pediatrics,12,46212,Discharged,2025-02-27
+P0923,41,Male,Elective,Orthopedics,10,48189,Discharged,2025-09-14
+P0924,14,Male,Elective,General Medicine,15,79377,Discharged,2025-02-28
+P0925,23,Male,Elective,Neurology,14,36176,Discharged,2025-01-24
+P0926,86,Male,Elective,Cardiology,2,2658,Discharged,2025-06-27
+P0927,49,Male,Elective,Neurology,12,39875,Discharged,2025-07-28
+P0928,28,Male,Emergency,Orthopedics,9,30243,Discharged,2025-03-30
+P0929,38,Female,Elective,Cardiology,2,73626,Discharged,2025-03-19
+P0930,53,Male,Urgent,Neurology,4,75630,Discharged,2025-03-28
+P0931,49,Female,Urgent,Cardiology,14,11011,Discharged,2025-05-06
+P0932,63,Female,Emergency,General Medicine,9,79716,Under Observation,2025-01-04
+P0933,24,Male,Urgent,Pediatrics,6,8908,Transferred,2025-01-05
+P0934,59,Male,Urgent,Pediatrics,5,62732,Discharged,2025-05-16
+P0935,40,Male,Emergency,Neurology,13,40150,Discharged,2025-01-08
+P0936,85,Other,Urgent,Orthopedics,5,31523,Discharged,2025-04-27
+P0937,15,Male,Elective,Pediatrics,3,49352,Transferred,2025-08-01
+P0938,14,Female,Elective,Orthopedics,9,32415,Discharged,2025-01-12
+P0939,42,Female,Urgent,Neurology,15,79799,Discharged,2025-08-14
+P0940,46,Other,Elective,Neurology,3,96743,Discharged,2025-08-15
+P0941,63,Male,Elective,General Medicine,4,81949,Discharged,2025-07-29
+P0942,37,Male,Emergency,Orthopedics,8,45043,Discharged,2025-08-17
+P0943,83,Male,Urgent,Pediatrics,3,51322,Transferred,2025-10-23
+P0944,43,Male,Urgent,Pediatrics,10,45818,Under Observation,2025-01-26
+P0945,12,Male,Emergency,Cardiology,4,79767,Discharged,2025-03-03
+P0946,11,Female,Urgent,General Medicine,2,56129,Discharged,2025-04-26
+P0947,88,Female,Emergency,Neurology,4,47876,Discharged,2025-09-09
+P0948,13,Female,Elective,Orthopedics,14,42131,Discharged,2025-11-15
+P0949,86,Female,Urgent,Neurology,15,38754,Discharged,2025-12-02
+P0950,26,Male,Emergency,Neurology,8,56162,Discharged,2025-08-01
+P0951,9,Female,Elective,Neurology,7,69522,Transferred,2025-05-30
+P0952,28,Female,Emergency,Cardiology,13,44369,Under Observation,2025-05-31
+P0953,56,Female,Urgent,General Medicine,3,81053,Discharged,2025-01-22
+P0954,39,Female,Elective,Cardiology,10,83018,Discharged,2025-06-19
+P0955,71,Male,Elective,Neurology,11,44050,Discharged,2025-07-07
+P0956,55,Male,Urgent,Cardiology,11,91087,Discharged,2025-03-18
+P0957,37,Male,Elective,Cardiology,4,18958,Discharged,2025-10-08
+P0958,58,Male,Urgent,Neurology,11,93347,Discharged,2025-10-24
+P0959,88,Female,Emergency,Pediatrics,10,30822,Discharged,2025-04-21
+P0960,38,Male,Emergency,Pediatrics,14,57301,Transferred,2025-11-30
+P0961,14,Female,Urgent,Neurology,3,29791,Discharged,2025-02-09
+P0962,37,Female,Urgent,Orthopedics,10,45331,Discharged,2025-11-29
+P0963,76,Male,Elective,Pediatrics,13,35326,Discharged,2025-10-08
+P0964,20,Male,Elective,Neurology,5,71114,Under Observation,2025-03-23
+P0965,86,Female,Emergency,Pediatrics,12,9956,Discharged,2025-08-26
+P0966,53,Female,Urgent,Cardiology,2,84156,Discharged,2025-04-24
+P0967,55,Male,Urgent,Neurology,11,90577,Discharged,2025-10-19
+P0968,29,Male,Emergency,Neurology,10,57172,Discharged,2025-02-28
+P0969,83,Female,Elective,Cardiology,3,55633,Under Observation,2025-03-31
+P0970,4,Male,Elective,Pediatrics,1,70598,Discharged,2025-04-23
+P0971,27,Female,Elective,Pediatrics,12,21509,Under Observation,2025-03-14
+P0972,38,Male,Urgent,Neurology,4,75474,Discharged,2025-05-02
+P0973,43,Male,Emergency,Pediatrics,8,23430,Discharged,2025-08-08
+P0974,43,Female,Emergency,General Medicine,1,68287,Discharged,2025-08-20
+P0975,14,Female,Emergency,Pediatrics,15,31946,Discharged,2025-07-22
+P0976,21,Female,Urgent,Pediatrics,9,75121,Discharged,2025-03-11
+P0977,9,Male,Elective,Orthopedics,14,79524,Discharged,2025-03-15
+P0978,52,Other,Urgent,Cardiology,3,22447,Discharged,2025-12-02
+P0979,32,Female,Elective,Pediatrics,4,62509,Transferred,2025-04-02
+P0980,51,Male,Emergency,General Medicine,10,50841,Under Observation,2025-02-07
+P0981,54,Male,Elective,Pediatrics,10,30816,Discharged,2025-06-15
+P0982,64,Male,Emergency,Pediatrics,12,59650,Discharged,2025-01-03
+P0983,50,Female,Urgent,Cardiology,14,99282,Discharged,2025-05-06
+P0984,59,Male,Urgent,Orthopedics,13,2242,Discharged,2025-11-09
+P0985,53,Female,Urgent,Cardiology,3,95774,Transferred,2025-04-08
+P0986,59,Male,Elective,Cardiology,5,85885,Discharged,2025-09-14
+P0987,56,Other,Emergency,Pediatrics,14,53879,Discharged,2025-06-28
+P0988,29,Male,Emergency,Pediatrics,9,61783,Discharged,2025-05-10
+P0989,23,Female,Elective,Pediatrics,14,38181,Discharged,2025-08-30
+P0990,71,Male,Elective,Pediatrics,9,14655,Discharged,2025-08-06
+P0991,31,Male,Urgent,General Medicine,1,58005,Discharged,2025-04-27
+P0992,50,Female,Urgent,Orthopedics,8,82003,Transferred,2025-03-23
+P0993,18,Female,Emergency,Pediatrics,13,24648,Under Observation,2025-12-01
+P0994,39,Female,Emergency,Orthopedics,10,72272,Discharged,2025-03-03
+P0995,48,Male,Elective,General Medicine,2,75309,Discharged,2025-12-17
+P0996,57,Female,Elective,Neurology,4,76314,Discharged,2025-06-21
+P0997,48,Female,Emergency,General Medicine,13,35320,Discharged,2025-12-30
+P0998,33,Female,Urgent,Pediatrics,15,40420,Discharged,2025-05-09
+P0999,87,Male,Urgent,General Medicine,12,42789,Transferred,2025-07-26
+P1000,47,Female,Elective,Orthopedics,2,85712,Discharged,2025-08-13
